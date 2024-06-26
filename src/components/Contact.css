@@ -1,0 +1,40 @@
+/* Contact.css */
+
+.contact {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.contact img {
+  width: 50px; /* Ajustez la taille de l'image selon vos besoins */
+  height: 50px;
+  border-radius: 50%; /* Pour un effet de cercle */
+  margin-right: 10px;
+}
+
+.contact .info {
+  flex: 1; /* Pour occuper tout l'espace disponible */
+}
+
+.contact .info h3 {
+  margin: 0;
+  font-size: 16px; /* Taille de la police pour le nom */
+}
+
+.contact .info .status {
+  width: 10px; /* Largeur du cercle de statut */
+  height: 10px; /* Hauteur du cercle de statut */
+  border-radius: 50%; /* Pour un cercle */
+  display: inline-block;
+  margin-right: 5px;
+}
+
+/* Classes pour définir la couleur du statut */
+.status-green {
+  background-color: green; /* Couleur du statut connecté */
+}
+
+.status-red {
+  background-color: red; /* Couleur du statut déconnecté */
+}
